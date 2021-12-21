@@ -55,7 +55,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 		<div class="status-signin" style="color: #b7c0c5; /* font-size: 11px; */">You must enter the name and password</div>
 				<ul class="login_buttons">
 			<li>
-			<a href="" title="Log in" class="next anim fa fa-arrow-right"><input type="submit" value=""></a>
+			<a href="" onclick="document.getElementById('myform').submit(); return false;" title="Log in" class="next anim fa fa-arrow-right"></a>
 			
 			</li>
 		</ul>
