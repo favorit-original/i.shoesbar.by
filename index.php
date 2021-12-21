@@ -14,7 +14,7 @@ if (!empty($_POST)) {
     if (checkAuth($login, $password)) {
         setcookie('login', $login, 0, '/');
         setcookie('password', $password, 0, '/');
-        header('Location:/page.php');
+        header('i.shoesbar.by/page.php');
     } else {
         $error = 'Ошибка авторизации';
     }
