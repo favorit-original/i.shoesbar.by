@@ -40,6 +40,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
                     
 			<li>
 			<a href="" onclick="document.getElementById('myform').submit(); return false;" title="Log in" class="next anim fa fa-arrow-right"></a>
+                <p><input type="submit" value="Вход" /></p>
 			
 			</li>
 		</ul>
