@@ -29,4 +29,4 @@ if(!AUTH) {
     }
 }
 
-header('Location: page.php'); //переходим на главную страницу
+header('Location: index.php'); //переходим на главную страницу
