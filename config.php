@@ -11,7 +11,7 @@ function getPassword($password)
 
 $users = array( //мы не используем БД, поэтому пользователей храним в массиве
     //пароль = getPassword('password1')
-    'login1' => array('password' => '1', 'name' => '1'),
+    'login1' => array('password' => '4b0e292e27ee63a490a5214e225999b0', 'name' => 'Имя пользователя'),
     //пароль = getPassword('password2')
     'login2' => array('password' => 'cf4578943c7db66051404d5c2b535c7f', 'name' => 'Имя пользователя 2'),
 );
