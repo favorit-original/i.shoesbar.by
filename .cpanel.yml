@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export REPOPATH=favorit-original/i.shoesbar.by/*
+    - export REPOPATH=/favorit-original/i.shoesbar.by/*
     - export SITEPATH=/home/faershoe/i.shoesbar.by/
     - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
 
